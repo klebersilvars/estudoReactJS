@@ -1,0 +1,35 @@
+.div-container-carros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    color: black;
+}
+
+.carros {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+}
+
+.carros ul {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.carros ul li {
+    text-decoration: none;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
