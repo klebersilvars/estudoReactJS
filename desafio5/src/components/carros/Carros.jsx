@@ -3,7 +3,7 @@ import './Carros.css';
 
 const Carros = () => {
 
-    const [modelos] = useState(['Fiat', 'Mustang', 'Gol', 'Voyage', 'Fusca'])
+    const [modelos] = useState(['Fiat', 'Mustang', 'Gol', 'Voyage', 'Fusca', 'Gonçalves'])
 
     let cars = modelos.map((car) => {
         return car
